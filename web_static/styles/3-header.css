@@ -5,11 +5,13 @@ header {
     border-bottom: 1px solid #CCCCCC;
     display: flex;
     align-items: center;
+    flex-direction: column;
 }
 
-header .loogo {
+header .logo {
     padding-left: 20px;
-    background-image: url("../images/logo.png") no-repeat center;
+    background-image: url("../images/logo.png");
+    background-repeat: no-repeat;
     width: 142px;
     height: 60px;
 }
