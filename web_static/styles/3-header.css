@@ -7,11 +7,9 @@ header {
     align-items: center;
 }
 
-.logo-container {
-    margin-left: 20px;
-    background-image: url('../images/logo.png'); /* Adjust the path based on your file structure */
-    background-size: contain;
-    background-repeat: no-repeat;
-    width: 40px; /* Set the width of the logo container */
-    height: 40px; /* Set the height of the logo container */
+header .loogo {
+    padding-left: 20px;
+    background-image: url("../images/logo.png") no-repeat center;
+    width: 142px;
+    height: 60px;
 }
